@@ -1,3 +1,14 @@
 
-Exercies derived from David Mckay's information theory book 2003:
+Exercises derived from David Mckay's information theory book 2003:
+
+
+1) Define prob function.
+
+
+
+Theorem: Shannon's source coding theorem.
+    |(1/N)*H_delta(X^N) - H| < episilon
+
+If N is very large, esential bits needed to encode is very close to 'H',
+no matter what the probability of not coding x (i.e. delta).
 
