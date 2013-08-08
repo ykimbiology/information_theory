@@ -1,0 +1,26 @@
+#! /usr/bin/python
+
+
+"""
+INPUT:
+  1) N: 
+
+Define a probability distribution function.
+  P(x) =p0^(N-r(x))p1^r(x)
+  r(x) = number of 1s in x.
+
+"""
+
+
+def get_example_x():
+    x = [0,1,0]
+    return x
+
+def get_probability(x):
+    count = sum(x)
+    return count
+
+
+x = get_example_x()
+prob = get_probability(x)
+print prob

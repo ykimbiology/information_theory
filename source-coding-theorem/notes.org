@@ -1,0 +1,3 @@
+
+Exercies derived from David Mckay's information theory book 2003:
+
